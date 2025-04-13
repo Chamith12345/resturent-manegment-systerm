@@ -1,0 +1,15 @@
+@import "tailwindcss";
+*{
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    font-style: italic;
+    font-style: bold;
+    font-size: 50px;
+}
+.homecon{
+   display: flex;
+  
+   
+   /* width: 100%; */
+}
