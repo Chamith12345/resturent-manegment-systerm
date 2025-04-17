@@ -10,11 +10,11 @@ export default function App() {
   return (
     <div className='appmain'>
       <>
-       {/* <Login/> */}
+       <Login/>
       <div className="homecon">
-      <Sidebar/>
+      {/* <Sidebar/>
       <Mid/>
-      <Rightbar/>
+      <Rightbar/> */}
       </div>
       </>
     </div>

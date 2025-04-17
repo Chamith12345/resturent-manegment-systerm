@@ -1,14 +1,15 @@
-body,html {
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     background-color:black ;
     background-image: url('../assets/loginbackgroud.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    backface-visibility: visible;
-    /* filter: blur(8px); */
+    background-size: cover;
 }
+
+
 
 
 .username, .password{
@@ -21,16 +22,25 @@ body,html {
     cursor: pointer;
     background-color: #4d6b88;
 }
+.username:hover,.password:hover{
+background-color: aliceblue;
+}
 
 .loginbutton{
+font-family: "Poetsen One", sans-serif;
  color:rgb(0, 0, 0); 
- font-weight: 500;
+ font-weight: 400;
  border-radius: 10px;
  background-color: aqua; 
  border-color: none; 
  padding: 10px;
  margin-top: 30px ;
 }
+
+.loginbutton:hover {
+    background: rgb(40, 255, 255);
+    transform: scale(1.05);
+  }
 
 .middlebox{
     border: solid;
@@ -42,9 +52,14 @@ body,html {
     margin-top: 100px;
     border-radius: 20px;
     background-color: #34495e;
+    
 
 }
 
 .headline {
     margin-bottom: 20px;
-}
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+     }
