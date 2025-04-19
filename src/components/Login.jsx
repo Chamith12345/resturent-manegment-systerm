@@ -1,5 +1,4 @@
 import './login.css';
-// import logo from '..assets/loingbackground.jpeg';
 
 import React, { Component } from 'react'
 
@@ -7,8 +6,9 @@ export class login extends Component {
   render() {
     return (
       
-      <div className="mainbackground">
-        
+      <div>
+        <>
+        <div className="background">
         <div className="middlebox">
           <ul className='logingul'>
            <li><p className="headline">Smart Track</p></li>
@@ -17,10 +17,10 @@ export class login extends Component {
            <li> <input type="password" className='password' placeholder='password'></input></li>
            <button className='loginbutton'> Sign in  </button>
            </ul>
+           </div>  
           
-           
         </div>
-
+        </> 
       </div>
     )
   }
