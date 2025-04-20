@@ -15,13 +15,13 @@ export default function App() {
          </div>
 
          <div className="homecon">
-            {/* <Sidebar/>
+            <Sidebar/>
              <Mid/>
-             <Rightbar/> */}
+             <Rightbar/>
          </div>
          
          <div className="addingiteams">
-         <Addingiteams/>
+         {/* <Addingiteams/> */}
          </div>
       </>
       

@@ -1,3 +1,108 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.background{
+   
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/loginbackgroud.jpeg');
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    overflow: hidden;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(6px); 
+    background-color: rgba(0, 0, 0, 0.3); 
+    
+}
+ 
+.componentsname, .componentscost{
+    border:solid 1px;
+    width: 200px;
+    margin-left: 30px;
+    padding: 5px;
+    border-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4d6b88;
+}
+
+.componentscost{
+    margin-left: 40px;
+}
+
+.componentscost:hover,.componentsname:hover{
     background-color: aliceblue;
+}
+
+.name, .cost {
+    text-align: left;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.addingbutton{
+    font-family: "Poetsen One", sans-serif;
+    color:rgb(0, 0, 0); 
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    background-color: aqua; 
+    border-color: none; 
+    padding: 15px;
+    margin-top: 30px ;
+}
+
+.addingbutton:hover {
+    background: rgb(40, 255, 255);
+    transform: scale(1.05);
+  }
+
+.middlebox{
+    border: solid;
+    padding: 50px ;
+    width: 30vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #34495e;
+    backdrop-filter: blur(10px); 
+
+}
+
+.headline {
+    margin-bottom: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 30px;
+     }
+
+.typeselector {
+    border: black solid;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 5px;
+    margin-left: 45px;
+}
+.typeselector:hover{
+    background-color: aliceblue;
+}
+
+.type {
+    text-align: left;
+    margin: 10px;
 }
