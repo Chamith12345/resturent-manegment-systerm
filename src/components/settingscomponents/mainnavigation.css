@@ -1,0 +1,5 @@
+.mainbg {
+   background-color: black;
+   display: flex;
+   flex-wrap: 3; 
+}
