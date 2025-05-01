@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 .sidebar {
     width: 250px;
     background-color: #3A3A3A; 
@@ -37,15 +37,6 @@
   
   
   .sidebarbutton {
-    /* margin-top: 100px;
-    padding: 10px 20px;
-    background: #e74c3c; 
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s; */
     padding: 10px 15px;
     margin-top: 10px;
     width: 100%;
@@ -71,4 +62,15 @@
   }
 
 
-  
+ .siteamheadline {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 500px;
+  font-style: normal;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  /* border: #000000 solid;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; */
+ } 
