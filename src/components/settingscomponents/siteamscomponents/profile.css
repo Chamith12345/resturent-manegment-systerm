@@ -5,7 +5,7 @@
     justify-content: center;
     border-radius: 100% ;
     border:solid 5px;
-   
+   box-shadow: 5px 2px 5px black;
     
 }
    
@@ -13,14 +13,56 @@
     display:flex;
     justify-content: center;
 }
+
+.profilealldetails {
+    max-width: 700px;
+    margin: 40px auto;
+    border: 5px solid #3A3A3A;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+    background-color: #3A3A3A;
+    color: aliceblue;
+    font-size: 18px;
+    padding-bottom: 50px;
+    justify-content: center;
+    box-shadow:  10px 2px 10px black;
+}
+
 .profledetails{
     display:flex;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+
 }
 
-.profilep1 {
-    margin-left: 10px;
+.profilep1{
+    width: 35%;
+    padding-left: 10px;
+ 
+    
 }
 
-.profilep2 {
-    margin-left: 10px;
+.profilep2{
+    width: 60%;
+    padding-left: 10px;
+ 
+    
 }
+.settingbutton{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.b1 {
+    /* border: black solid; */
+    border-radius: 10px;
+    background-color: black;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+  }
+  .b1:hover{
+    background: #c0392b;
+    transform: scale(1.05);
+  }
